@@ -4,3 +4,14 @@
 vue.js:8436 You are running Vue in development mode.
 Make sure to turn on production mode when deploying for production.
 See more tips at https://vuejs.org/guide/deployment.html
+
+
+### Install Error
+    D:\Github\vue-js-2-by-example\vue-skills>npm install vee-validate --save
+    vue-skills@0.1.0 D:\Github\vue-js-2-by-example\vue-skills
+    `-- vee-validate@2.1.2
+
+    npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.2 (node_modules\chokidar\node_modules\fsevents):
+    npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+    npm WARN ajv-keywords@2.1.1 requires a peer of ajv@^5.0.0 but none was installed.
+

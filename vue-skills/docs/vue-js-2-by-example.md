@@ -69,37 +69,20 @@ NOT SHOWN
 ## v-bind-class to a JSON object
 <img src="v-bind_directive-to-a-JSON-object.png" />
 
-
-## v-bind-class to a style
+## v-bind to a style
 <img src="v-bind_directive-to-a-style.png" />
 
-updated-styles-in-App-vue-and-Skills-Vue
+## updated styles in App.vue and Skills.vue
+**ToDo**: what's special about this?
 <img src="updated-styles-in-App-vue-and-Skills-Vue.png" />
 
-form_v-model_methods
+## form v-model directive methods
+- [see](https://vuejs.org/v2/guide/events.html)
+
 <img src="form_v-model_methods.png" />
 
-form_with-two-input-fields
+## form with two input fields
 <img src="form_with-two-input-fields.png" />
-
-install-vee-validate
-<img src="install-vee-validate.png" />install-vee-validate
-
-vee-validate-example
-<img src="vee-validate-example.png" />
-
-animations-using-transition-class
-<img src="animations-using-transition-class.png" />
-
-animations-using-Annimation-CSS-3rd-party-library
-<img src="animations-using-Annimation-CSS-3rd-party-library.png" />
-
-npm-install-vue-router
-<img src="npm-install-vue-router.png" />
-
-routing
-<img src="routing.png" />
-
 
 ## Appendix Vue Directives (most common)
   v-text
@@ -118,28 +101,30 @@ routing
 
 - [Class and Style Binding](https://coursetro.com/posts/code/136/Vue-CSS-Tutorial---Class-and-Style-Binding)
 
-### Vue Class binding
+## Vue Class binding
 uses a bind directive
 
-style binding
+## style binding
 
 ## vee-validate
 - **vee-validate** Input validation for Vue.js, [see](https://baianat.github.io/vee-validate/)
 - `npm install vee-validate --save`
 -
-### Install Error
-    D:\Github\vue-js-2-by-example\vue-skills>npm install vee-validate --save
-    vue-skills@0.1.0 D:\Github\vue-js-2-by-example\vue-skills
-    `-- vee-validate@2.1.2
-
-    npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.2 (node_modules\chokidar\node_modules\fsevents):
-    npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
-    npm WARN ajv-keywords@2.1.1 requires a peer of ajv@^5.0.0 but none was installed.
 
 ### Vue Devtools extension 
 -  [github](https://github.com/vuejs/vue-devtools) extension has install for **Chrome** Extension (beta), **Firefox** Addon (beta) and stadalone **Electron** app (works with any environment!)
 
-## Animations
+# Validation
+
+## install vee-validate
+<img src="install-vee-validate.png" />
+
+
+## vue-validate example
+<img src="vee-validate-example.png" />
+
+
+# Animations
 - e.g. enter and leave
 - Custom component wrapper `transition`
 - The name of the transition e.g. alert-in will server as a prefix to some css animation classes
@@ -150,6 +135,14 @@ style binding
 ## 3rd Party Animation Library 
 - **Animate.css** [demo](https://daneden.github.io/animate.css/)
 
+
+## animations using transition-class
+<img src="animations-using-transition-class.png" />
+
+## animations using _Annimation.css_ 3rd party library
+<img src="animations-using-Annimation-CSS-3rd-party-library.png" />
+
+
 ### Animating List
 via transition group
 
@@ -158,6 +151,15 @@ via transition group
 - `npm install vue-router`
 - this could have been created for me when I did the initial `vue create` command
 
+
+## npm install vue-router
+<img src="npm-install-vue-router.png" />
+
+## routing changes
+<img src="routing.png" />
+
+
+
 Left off [here](https://youtu.be/78tNYZUS-ps?t=3609) in the Video
 
 
@@ -165,6 +167,6 @@ Left off [here](https://youtu.be/78tNYZUS-ps?t=3609) in the Video
 - [StupidTodo](https://github.com/DaneVinson/StupidTodo) by DaneVinson, example uses no NPM, [blog](https://developingdane.com/vue-js/)
 - [Vue and TypeScript](https://johnpapa.net/vue-typescript/) by John Papa
 
-ToDo - move to another md file
+### ToDo - move to another md file
 - cheat-sheet.png
 - 11-8-2018 9-57-57 AM
